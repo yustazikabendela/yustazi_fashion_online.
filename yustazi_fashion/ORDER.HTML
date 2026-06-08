@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ORDER</title>
+<link rel="stylesheet"
+href="style.css">
+<style>
+body {
+background-image:url("IMG-20260508-WA0016.jpg");
+background-size:900px;
+background-repeat:no-repeat;
+background-attachment: fixed;
+min-height:100vh;
+margin:0;
+}
+h1{color:red;}
+</style>
+</head>
+<body>
+<h1><b>clothes order form</b></h1>
+<form action="order.php" method="POST">
+<label>full name</label><br>
+<input type="text" name="full_name"
+placeholder="firstname- second-lastname"><br><br>
+<label>phone number</label><br>
+<input type="text" name="phone"
+placeholder="+255"> <br><br>
+<label>Delivery Address</label><br>
+<input type="text" name="address"
+placeholder="city- street"><br><br>
+<label>select clothes</label><br>
+<select name="clothes" required>
+<option value= "">choose clothes </option>
+<option>men sweater OG</option>
+<option>suti koti</option>
+<option>modernwomen fashion</option>
+<option>women janja</option>
+<option>new toto fashion</option>
+<option>toto tshert</option>
+</select><br><br>
+<label>Additional information</label><br>
+<textarea name="Additional_info"rows="2" cols="50"
+placeholder="payment will be made after the goods are Delivery"></textarea><br><br>
+<button type="submit">submit order</button><br><br>
+<a href="HOME.html">home</a>
+<a href="ABOUT.html">about</a>
+<a href="products.html">products</a>
+<a href="contacts.html">contacts</a>
+</form>
+</body>
+</html>
