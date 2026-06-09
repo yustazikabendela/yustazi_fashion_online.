@@ -1,4 +1,9 @@
 YUSTAZI FASHION ONLINE CLOTHES ORDERING SYSTEM
+| | |
+|--|--|
+| **STUDENT NAME:** | ** YUSTAZI YOHANA KABENDELA** |
+| **REGISTRATION NUMBER: ** |14325095/T.24** |
+| **PROGRAMME:**| **Bsc. EDU -(MIST)02 **|
 Project Overview
 YUSTAZI FASHION Online Clothes Ordering System is a web-based application developed to facilitate online ordering of fashion products. The system enables customers to submit orders through an online form, while the submitted information is stored securely in a MySQL database for management and record keeping.
 
